@@ -5,7 +5,7 @@ This starts at the top with your Azure Account. The next level down is the Subsc
 
 Below the subscription level is where you'll find Resource Groups. These help to organize resources you use, such as Virtual Machines and App Services (as well as storage options and other resources we'll discuss in later lessons), in order to make resource management easier. You may have a resource group for a specific project, or because resource groups are tied to a Region, you may have resource groups containing similar resources in multiple locations across the world. A region contains at least one data center, but could have multiple data centers that are close by and networked together through a low-latency network. There are over 60 regions available worldwide and available in 140 countries, such as East US and Japan West.
 
-![](images\1.PNG)
+![](images/1.PNG)
 
 When choosing a region, it's important to consider what you are trying to achieve. For development and testing purposes, you likely want a region close to yourself; for production purposes, you often want resources to be close to your user. Keep the following in mind:
 
